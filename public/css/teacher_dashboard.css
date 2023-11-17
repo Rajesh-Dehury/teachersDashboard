@@ -1,0 +1,513 @@
+body{
+    background-image: linear-gradient(90deg, #9754fc, #40c4c1);
+    background-size: cover; 
+    font-family: "Merriweather Sans", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+@media screen and (max-width: 600px) {
+    .nav.responsive {position: relative;}
+    .nav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .navbar.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .navbar a:not(:first-child) {display: none;}
+    .navbar a.icon {
+        float: right;
+        display: block;
+    }
+    [class*="col-"] {
+        width: 100%;
+    }
+    .myPieChart{
+        max-width: 300px !important; 
+    }
+    .myBarChart{
+        max-width: 300px !important; 
+    }
+    .student-profile {
+        min-height: 500px !important;
+        font-size: 20px !important;
+    }
+    .learning{
+        min-height: 400px !important;
+        font-size: 20px !important;
+    }
+    .gender-breakdown{
+        min-height: 600px !important; 
+    }
+    .gender-header{
+        font-size: 20px !important;
+    }
+    .info{
+        font-size: 14px !important; 
+    }
+    .interest{
+        min-height: 450px !important; 
+        font-size: 18px !important;
+    }
+    .strengths{
+        min-height: 500px !important;
+        font-size: 18px !important;
+    }
+    .teacher-strength{
+        margin-top: 20px !important;
+        font-size: 18px !important;
+    }
+    .resources{
+        min-height: 350px !important; 
+    }
+    .explore-resource{
+        font-size: 18px !important;
+    }
+    .cumulative{
+        min-height: 160px !important; 
+    }
+    .cumulative_header {
+        font-size: 18px !important;
+    }
+    .cumulative_no {
+        padding: 0 10px !important;
+    }
+    #cumulative_number_table tr th,td{
+        font-size: 12px !important;
+    }
+    .grid-container{
+        display: block !important;
+        font-size: 14px !important;
+    }
+    .legends{
+        font-size: 18px !important;
+        text-align: center !important;
+    }
+    .title{
+        margin-top: 10px !important;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+.profile img{
+    width: 100px; 
+    float: left;
+}
+.welcome{
+    font-weight: 700;
+    font-size: 24px;
+    padding: 20px;
+}
+.teachers_dashboard{
+    font-weight: 700; 
+    font-size: 28px;
+    padding: 20px;
+}
+.stu_no {
+    font-weight: normal;
+    font-size: 18px;
+}
+.container-fluid{
+    background-color: #F2F2F2;
+}
+.btn{
+    border: 2px solid #3cbcbb;
+    cursor: pointer; 
+    text-align:center;
+    background-color: #ffffff; 
+    color: #3cbcbb;
+    padding: 5px;
+    width: 100%;
+    margin: 10px 0 0;
+}
+.btn:hover{
+    color: #ffffff;
+    background-color: #3DBBB8;
+}
+.box{
+    border-radius: 10px; 
+    box-shadow:  0 0 5px #9c9c9c; 
+    -moz-box-shadow: 0 0 5px #9c9c9c;
+    -webkit-box-shadow: 0 0 5px #9c9c9c;
+    -o-box-shadow: 0 0 5px #9c9c9c;
+}
+.student-profile{
+    min-height: 500px; 
+    margin: 50px 0 0 0;
+    background-color:#ffffff; 
+    align-items:center;
+    font-size: 25px;
+}
+.circle{
+    border: 3px solid #3DBBB8;
+    background-color: #FFFFFF;
+    border-radius:50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.small-circle{
+    position: absolute;
+    bottom: -5%;
+    width: 70%;
+    height: 30%;
+    background-color: #3DBBB8;
+    border-radius: 50%;
+}
+.gender-breakdown{
+    min-height: 600px; 
+    margin: 50px 0 0 0;
+    background-color:#ffffff; 
+    align-items:center;
+}
+.gender-header{
+    font-size: 28px;
+    font-weight: bold;
+}
+.gender-content{
+    padding: 30px 0 0;
+}
+.info{
+    margin: 10px 0 10px;
+    background-color:#ffffff; 
+    font-size: 14px; 
+    padding: 15px;
+}
+.interest{
+    min-height: 450px; 
+    margin: 50px 0 0 0;
+    background-color:#ffffff; 
+    align-items:center;
+    font-size: 28px;
+    padding: 20px 30px;
+}
+.search-box{
+    margin: 10px;
+}
+.card{
+    position: relative;
+    border-radius: 15px;
+    background: #ffffff;
+    /* max-width: 190px;  */
+    min-height: 275px;
+    /* margin-left: 25px; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:#ffffff; 
+    align-items:center;
+}
+.card::before{
+    content: "";
+    position: absolute;
+}
+.card .image{
+    height: 100%;
+    width: 100%;
+    padding: 15px 5px;
+}
+.card .card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.method{
+    background-color:#ffffff; 
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 160px; 
+    width: 125px; 
+    margin: 20px;
+}
+.method-text{
+    position: absolute;
+    bottom: 0;
+    background-color: #ffffff;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+}
+.auto-fill {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+}
+.auto-fit {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.learning{
+    min-height: 580px; 
+    margin: 50px 0 0 0;
+    background-color:#ffffff; 
+    align-items:center;
+    font-size: 28px;
+    padding: 20px 30px;
+}
+.strengths{
+    min-height: 800px;
+    margin: 50px 0 0 0;
+    background-color:#ffffff; 
+    align-items:center;
+    font-size: 26px;
+}
+.teacher-strength{
+    margin-top: 250px;
+    font-size: 28px;
+}
+.resources{
+    text-align: center;
+    min-height: 220px; 
+    margin: 50px 0 0 0;
+    background-color:#ffffff;
+}
+.explore-resource{
+    font-size: 28px;
+    text-align: center;
+}
+.navbar {
+    overflow: hidden;
+}
+.navbar a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 17px;
+}
+/* .navbar a:hover {
+    background-color: #ddd;
+} */
+.navbar a.active {
+    background-color: #3cbcbb;
+    color: white;
+}
+.nav-right {
+    float: right;
+}
+.navbar .icon {
+display: none;
+}
+
+
+.hex-strength{
+    background-repeat: no-repeat; 
+    background-size: contain; 
+    background-position: center; 
+    color: #ffffff; 
+    width: 100px; 
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+.modal-content {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 100%; 
+    border-radius: 20px;
+}
+.modal-header{
+    font-weight: bold; 
+    font-size: 22px; 
+    text-align: center;
+    border-bottom: none;
+    display: block;
+}
+.life_power{
+    font-size: 22px;
+    text-align: center;
+}
+.modal-body{
+    /* height: 750px; */
+    /* overflow-y: scroll; */
+    margin: 0 auto;
+}
+.close {
+    color: #000000;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.closeMap {
+    color: #000000;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+.closeMap:hover,
+.closeMap:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.top{
+    margin: 15px;
+    background-color:#ffffff; 
+    font-size: 14px; 
+    padding: 15px;
+    width: 500px;
+}
+.view_btn{
+    background-color: #3DBBB8;
+    margin: 10px auto;
+    border-radius: 5px;
+    color: #ffffff;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+}
+.passionClose {
+    color: #000000;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+.passionClose:hover,
+.passionClose:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-1{
+    text-align: center;
+}
+.modal-2{
+    text-align: center;
+}
+.spi_circle{
+    margin: 10px;
+    height: 300px;
+    width: 300px;
+}
+.myPieChart{
+    width: 450px;
+    height: 450px; 
+}
+.myBarChart{
+    padding: 16px;
+    width: 100%;
+    height: auto; 
+}
+.download_btn{
+    background-color: #3DBBB8;
+    margin: 0 auto;
+    border-radius: 5px;
+    color: #ffffff;
+    width: 80%;
+    height: 40px;
+    cursor: pointer;
+}
+.legends{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    margin-top: 60px;
+}
+.tooltip-inner{
+    opacity: 100%;
+    min-width: 200px;
+    padding: 15px;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+.owl-carousel .owl-nav button.owl-next {
+    background: #6d44c3;
+    color: #ffffff;
+    border-radius: 20px;
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    right: -30px;
+    top: 35%;
+}
+.owl-carousel .owl-nav button.owl-prev {
+    background: #6d44c3;
+    color: #ffffff;
+    border-radius: 20px;
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    left: -30px;
+    top: 35%;
+}
+/* .owl-carousel .item{
+    width: 100%;
+} */
+
+.student-selector {
+    margin-top: 0px;
+}
+
+.view_btn a {
+    color: #ffffff;
+}
+.cumulative{
+    text-align: center;
+    min-height: 220px; 
+    margin: 50px 0 0 0;
+    background-color:#ffffff;
+}
+.cumulative_header {
+    font-size: 28px;
+}
+.cumulative_no {
+    padding: 0 40px;
+    text-align: center;
+}
+#cumulative_number_table tr th {
+    border-top: 2px solid #ddd;
+    border-left: 2px solid #ddd;
+    border-right: 2px solid #ddd;
+    border-bottom: none;
+    font-size: 18px;
+}
+#cumulative_number_table tr td {
+    border-bottom: 2px solid #ddd;
+    border-left: 2px solid #ddd;
+    border-right: 2px solid #ddd;
+    border-top: none;
+    padding: 8px;
+}
