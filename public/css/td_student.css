@@ -104,9 +104,20 @@
     border-radius: 10px;
     font-weight: bold;
     white-space: nowrap;
+    border: none;
+    cursor: pointer;
+    outline: inherit;
 }
 
-.tag-item-active {
+.tag-item::-moz-focus-inner {
+    border: 0;
+}
+
+.tag-item:focus {
+    outline: none;
+}
+
+.tag-item.active {
     color: #fff;
     background: #3DBBB8;
 }
@@ -232,6 +243,7 @@
 }
 
 .sop-box-heading {
+    white-space: nowrap;
     position: absolute;
     left: 50%;
     top: -10%;
@@ -399,6 +411,13 @@
     border: 2px solid white;
 }
 
+@media only screen and (min-device-width: 576px) and (max-device-width: 992px) {
+    .sop-box-heading {
+        top: -7%;
+        padding: 10px 55px;
+    }
+}
+
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     .main-box {
         padding: 10px;
@@ -410,5 +429,10 @@
 
     .mainTable {
         min-width: 700px;
+    }
+
+    .sop-box-heading {
+        top: -2%;
+        padding: 10px 55px;
     }
 }

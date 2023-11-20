@@ -4,9 +4,6 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    {{-- owl carousel --}}
-    <link rel="stylesheet" href="{{ asset('assets/css/owl.carousel.min.css')}}">
-    <link rel="stylesheet" href="{{ asset('assets/css/owl.theme.default.min.css')}}">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
@@ -30,6 +27,17 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-luxon@0.2.1"></script>
     <script src="https://www.chartjs.org/chartjs-chart-financial/chartjs-chart-financial.js"></script>
+
+
+    {{-- owl carousel --}}
+    <link rel="stylesheet" href="{{ asset('assets/css/owl.carousel.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/css/owl.theme.default.min.css')}}">
+    <script src="{{ asset('assets/js/owl.carousel.min.js')}}"></script>
+
+
+    {{-- ck editor --}}
+    <script src="https://cdn.ckeditor.com/ckeditor5/40.0.0/classic/ckeditor.js"></script>
+
 
     <link rel="stylesheet" href="/css/new_td.css">
     <link rel="stylesheet" href="/css/td_student.css">
