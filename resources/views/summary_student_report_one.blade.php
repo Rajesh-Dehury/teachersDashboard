@@ -165,14 +165,14 @@
                     <div class="dominantskill">
                         <div class="">
                             <div class="left-haxagon">
-                                <img src="assets/teacher_dashboard_new/Motive_hexa.png" alt="">
+                                <img class="img-left" src="assets/teacher_dashboard_new/Motive_hexa.png" alt="">
                                 <img src="assets/teacher_dashboard_new/trust.png" alt="" class="left-hex-inner">
                             </div>
                             <p class="left-hexagon-text">COGNITIVE</p>
                         </div>
                         <div class="">
                             <div class="right-hexagon">
-                                <img src="assets/teacher_dashboard_new/Motive_hexa.png" alt="">
+                                <img class="img-right" src="assets/teacher_dashboard_new/Motive_hexa.png" alt="">
                                 <img src="assets/teacher_dashboard_new/trust.png" alt="" class="right-hex-inner">
                             </div>
                             <p class="right-hexagon-text">ADAPTIVE</p>
@@ -193,14 +193,14 @@
                     <div class="dominantskill">
                         <div class="">
                             <div class="left-haxagon">
-                                <img src="assets/teacher_dashboard_new/Motive_hexa.png" alt="">
+                                <img class="img-left" src="assets/teacher_dashboard_new/Motive_hexa.png" alt="">
                                 <img src="assets/teacher_dashboard_new/trust.png" alt="" class="left-hex-inner">
                             </div>
                             <p class="left-hexagon-text">INTERACTIVE</p>
                         </div>
                         <div class="">
                             <div class="right-hexagon">
-                                <img src="assets/teacher_dashboard_new/Motive_hexa.png" alt="">
+                                <img class="img-right" src="assets/teacher_dashboard_new/Motive_hexa.png" alt="">
                                 <img src="assets/teacher_dashboard_new/trust.png" alt="" class="right-hex-inner">
                             </div>
                             <p class="right-hexagon-text">CREATIVE</p>

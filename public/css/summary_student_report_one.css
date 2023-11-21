@@ -135,16 +135,12 @@
     .container {
         display: flex;
         width: 100%;
+        justify-content: space-between;
     }
 
     .left-side,
     .right-side {
-        width: 50%;
-        /* box-sizing: border-box; */
-    }
-
-    .left-side {
-        /* background-color: #f0f0f0; */
+        width: 45%;
     }
 
     .right-side {
@@ -379,11 +375,12 @@
         height: 80px;
     }
 
+
     .left-haxagon {
         clip-path: polygon(0 0, 75% 0%, 100% 50%, 75% 100%, 0 100%, 0% 50%);
-        height: 130px;
+        height: 125px;
         background: #bdd6ff;
-        width: 180px;
+        width: 160px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -393,9 +390,9 @@
 
     .right-hexagon {
         clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
-        height: 130px;
+        height: 125px;
         background: #ffebaf;
-        width: 200px;
+        width: 160px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -405,14 +402,14 @@
 
     .right-hex-inner {
         position: absolute;
-        height: 65px !important;
-        width: 65px;
+        height: 50px !important;
+        width: 50px;
     }
 
     .left-hex-inner {
         position: absolute;
-        height: 65px !important;
-        width: 65px;
+        height: 50px !important;
+        width: 50px;
     }
 
     .left-hexagon-text {
@@ -535,11 +532,6 @@
         text-align: center;
     }
 
-    .second-section {
-        min-height: 11in;
-        position: relative;
-    }
-
     .bottom-box-footer {
         position: absolute;
         bottom: 0;
@@ -652,16 +644,13 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    justify-content: space-between;
 }
 
 .left-side,
 .right-side {
-    width: 50%;
+    width: 45%;
     /* box-sizing: border-box; */
-}
-
-.left-side {
-    /* background-color: #f0f0f0; */
 }
 
 .right-side {
@@ -898,9 +887,9 @@
 
 .left-haxagon {
     clip-path: polygon(0 0, 75% 0%, 100% 50%, 75% 100%, 0 100%, 0% 50%);
-    height: 130px;
+    height: 125px;
     background: #bdd6ff;
-    width: 180px;
+    width: 160px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -910,9 +899,9 @@
 
 .right-hexagon {
     clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
-    height: 130px;
+    height: 125px;
     background: #ffebaf;
-    width: 200px;
+    width: 160px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -922,14 +911,16 @@
 
 .right-hex-inner {
     position: absolute;
-    height: 65px !important;
-    width: 65px;
+    height: 50px !important;
+    width: 50px;
+    right: 40px;
 }
 
 .left-hex-inner {
     position: absolute;
-    height: 65px !important;
-    width: 65px;
+    height: 50px !important;
+    width: 50px;
+    left: 40px;
 }
 
 .left-hexagon-text {
@@ -950,7 +941,7 @@
 
 
 .chart {
-    height: 250px;
+    height: 230px;
     padding-right: 50px;
 }
 
@@ -962,7 +953,15 @@
 }
 
 .dominantskill img {
-    height: 130px;
+    height: 120px;
+}
+
+.img-left {
+    padding-left: 20px;
+}
+
+.img-right {
+    padding-right: 20px;
 }
 
 .DominantSkills-text {
@@ -1053,7 +1052,7 @@
 }
 
 .second-section {
-    min-height: 11in;
+    min-height: 10.5in;
     position: relative;
 }
 
