@@ -612,6 +612,7 @@ nav.main-menu li.active .img-top {
     background-color: #ffffff;
     font-weight: 700;
     font-size: 1.2rem;
+    padding: 1rem 1rem 5rem;
 }
 
 .myPieChart {
@@ -687,6 +688,7 @@ nav.main-menu li.active .img-top {
     background-color: #ffffff;
     font-weight: 700;
     font-size: 1.2rem;
+    padding: 1rem 1rem 5rem; /* change */
 }
 
 .pathway-box .gray-box {
@@ -697,6 +699,15 @@ nav.main-menu li.active .img-top {
 
 .pathway-box .pending-files {
     font-size: 10px;
+}
+.pending-files .class-no {
+    font-size: 12px;
+    font-weight: 600;
+}
+.pending-files .files {
+    font-size: 12px;
+    color: #DB2107;
+    font-weight: 600;
 }
 
 .progress-circle {
@@ -734,7 +745,7 @@ nav.main-menu li.active .img-top {
     width: 5em;
     text-align: center;
     display: block;
-    color: #824FD2;
+    /* color: #824FD2; */
     z-index: 2;
 }
 

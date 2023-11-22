@@ -70,31 +70,33 @@
             </div>
         </div>
 
-        <div class="col-lg-5">
+        <div class="col-lg-4">
             <div class="completed-profiles box">
-                <div class="row">
-                    <div class="col-md-2">
-                        <div class="gray">
+                <div class="row align-items-center">
+                    <div class="col-2 col-md-2">
+                        <div class="gray d-inline-flex align-items-center justify-content-center">
                             <img src="/assets/teacher_dashboard_new/fa-solid_user-graduate.png">
                         </div>
                     </div>
-                    <div class="col-md-10">
-                        <p>Profiles Completed
+                    <div class="col-10 col-md-10">
+                        <p class="mb-0 pl-2 pl-md-0"> <span class="completed-profiles-text">Profiles Completed</span>
                             <span data-tooltip="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." data-tooltip-location="top">
                                 <i class="fa fa-question-circle tooltip-icon"></i>
                             </span>
                             : 40
                         </p>
                     </div>
+                </div>
+                <div class="row">
                     <div class="col-md-2"></div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 mt-3 mt-md-0">
                         <p>Gender Breakdown: </p>
                     </div>
                     <div class="col-md-2">
-                        <p>20 <br><span style="font-weight: 100;">Male</span></p>
+                        <p>20 <br class="d-none d-md-inline-block"><span style="font-weight: 100;">Male</span></p>
                     </div>
                     <div class="col-md-2">
-                        <p>20 <br><span style="font-weight: 100;">Female</span></p>
+                        <p>20 <br class="d-none d-md-inline-block"><span style="font-weight: 100;">Female</span></p>
                     </div>
                 </div>
 
@@ -121,7 +123,11 @@
                                     <div class="col-md-8">
                                         <div class="character-text">
                                             <h4>Dreamer <span style="float: right;">32</span></h4>
-                                            <p>Students in this class are both emotive and creative. They have a strong understanding of their feelings and are able to recognise and effectively manage their emotions. They are also able to generate ideas and solutions for unique problems through new, out of the box perspectives.</p>
+                                            <p>Students in this class are both emotive and creative. They have a
+                                                strong understanding of their feelings and are able to recognise
+                                                and effectively manage their emotions. They are also able to
+                                                generate ideas and solutions for unique problems through new,
+                                                out of the box perspectives.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -136,7 +142,11 @@
                                     <div class="col-md-8">
                                         <div class="character-text">
                                             <h4>Dreamer <span style="float: right;">32</span></h4>
-                                            <p>Students in this class are both emotive and creative. They have a strong understanding of their feelings and are able to recognise and effectively manage their emotions. They are also able to generate ideas and solutions for unique problems through new, out of the box perspectives.</p>
+                                            <p>Students in this class are both emotive and creative. They have a
+                                                strong understanding of their feelings and are able to recognise
+                                                and effectively manage their emotions. They are also able to
+                                                generate ideas and solutions for unique problems through new,
+                                                out of the box perspectives.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -147,110 +157,112 @@
             </div>
 
             <div class="interest-categories box">
-                <div class="row">
-                    <div class="col-md-10">
-                        <p>Interest Categories
+                <div class="row align-items-center">
+                    <div class="col-10 col-md-10 pl-1 pl-md-3 pr-0">
+                        <p class="mb-0"> <span>Interest Categories</span>
                             <span data-tooltip="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." data-tooltip-location="top">
                                 <i class="fa fa-question-circle tooltip-icon"></i>
                             </span>
                         </p>
                     </div>
-                    <div class="col-md-2">
-                        <div class="gray">
-                            <i class="fa-solid fa-chevron-right white-iconbox"></i>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
+                    {{-- <div class="col-2 col-md-2 pl-0 d-flex justify-content-end pr-1 pr-md-3">
+                                <div class="gray">
+                                    <i class="fa-solid fa-chevron-right white-iconbox"></i>
+                                </div>
+                            </div> --}}
+                </div>
+                <div class="row">
+                    <div class="col-6 col-md-3">
                         <div class="gray-box">
-                            <div class="white-box">
+                            <div class="white-box my-2">
                                 <img src="/assets/teacher_dashboard_new/interest/photography.png">
                             </div>
                             <h4>05</h4>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-6 col-md-3">
                         <div class="gray-box">
-                            <div class="white-box">
+                            <div class="white-box my-2">
                                 <img src="/assets/teacher_dashboard_new/interest/gardening.png">
                             </div>
                             <h4>05</h4>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-6 col-md-3">
                         <div class="gray-box">
-                            <div class="white-box">
+                            <div class="white-box my-2">
                                 <img src="/assets/teacher_dashboard_new/interest/adventure_travel.png">
                             </div>
                             <h4>05</h4>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-6 col-md-3">
                         <div class="gray-box">
-                            <div class="white-box">
+                            <div class="white-box my-2">
                                 <img src="/assets/teacher_dashboard_new/interest/management.png">
                             </div>
                             <h4>05</h4>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-6 col-md-3">
                         <div class="gray-box">
-                            <div class="white-box">
+                            <div class="white-box my-2">
                                 <img src="/assets/teacher_dashboard_new/interest/dance.png">
                             </div>
                             <h4>05</h4>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-6 col-md-3">
                         <div class="gray-box">
-                            <div class="white-box">
+                            <div class="white-box my-2">
                                 <img src="/assets/teacher_dashboard_new/interest/music.png">
                             </div>
                             <h4>05</h4>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-6 col-md-3">
                         <div class="gray-box">
-                            <div class="white-box">
+                            <div class="white-box my-2">
                                 <img src="/assets/teacher_dashboard_new/interest/cooking.png">
                             </div>
                             <h4>05</h4>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-6 col-md-3">
                         <div class="gray-box">
-                            <div class="white-box">
+                            <div class="white-box my-2">
                                 <img src="/assets/teacher_dashboard_new/interest/research.png">
                             </div>
                             <h4>05</h4>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-6 col-md-3">
                         <div class="gray-box">
-                            <div class="white-box">
+                            <div class="white-box my-2">
                                 <img src="/assets/teacher_dashboard_new/interest/charity.png">
                             </div>
                             <h4>05</h4>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-6 col-md-3">
                         <div class="gray-box">
-                            <div class="white-box">
+                            <div class="white-box my-2">
                                 <img src="/assets/teacher_dashboard_new/interest/art.png">
                             </div>
                             <h4>05</h4>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-6 col-md-3">
                         <div class="gray-box">
-                            <div class="white-box">
+                            <div class="white-box my-2">
                                 <img src="/assets/teacher_dashboard_new/interest/sports.png">
                             </div>
                             <h4>05</h4>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-6 col-md-3">
                         <div class="gray-box">
-                            <div class="white-box">
+                            <div class="white-box my-2">
                                 <img src="/assets/teacher_dashboard_new/interest/care_for_other.png">
                             </div>
                             <h4>05</h4>
@@ -262,29 +274,36 @@
 
         <div class="col-lg-5">
             <div class="insights-box box">
-                <div class="row">
-                    <div class="col-md-2">
+                <div class="row align-items-center mb-3">
+                    <div class="col-2 col-md-1">
                         <div class="gray">
                             <img src="/assets/teacher_dashboard_new/ic_outline-insights.png">
                         </div>
                     </div>
-                    <div class="col-md-10">
-                        <p>Insights</p>
+                    <div class="col-10 col-md-10">
+                        <p class="mb-0 ml-3 ml-md-0">Insights</p>
                     </div>
+                </div>
+                <div class="row">
                     <div class="col-md-12">
                         <p class="mt-2">Skill Distribution Chart</p>
                     </div>
-                    <div class="col-md-12">
+                    <div class="col-md-12 px-0 px-md-3 d-flex justify-content-center">
                         <div class="myPieChart">
                             <canvas id="myChart"></canvas>
-                            <script src="https://cdnjs.cloudfare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+                            <script src="https://cdnjs.cloudfare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js">
+                            </script>
                             <script>
                                 const data = {
-                                    labels: ["Motive", "Creative", "Adaptive", "Emotive", "Interactive", "Cognitive"],
+                                    labels: ["Motive", "Creative", "Adaptive", "Emotive", "Interactive",
+                                        "Cognitive"
+                                    ],
                                     datasets: [{
                                         label: "",
                                         data: [25, 5, 27, 20, 18, 5],
-                                        backgroundColor: ['#c00000', '#ed7d31', '#ffc000', '#70ad47', '#5b9bd5', '#2d5597'],
+                                        backgroundColor: ['#c00000', '#ed7d31', '#ffc000', '#70ad47',
+                                            '#5b9bd5', '#2d5597'
+                                        ],
                                     }]
                                 };
                                 const config = {
@@ -309,11 +328,12 @@
                                                 display: true,
                                                 position: 'right',
                                                 align: 'center',
+                                                responsive: true,
                                                 labels: {
                                                     font: {
-                                                        size: 20,
+                                                        size: 15,
                                                     },
-                                                    padding: 30,
+                                                    padding: 20,
                                                     textAlign: 'start',
                                                     usePointStyle: true,
                                                     pointStyle: 'rectRounded',
@@ -330,28 +350,33 @@
                             </script>
                         </div>
                     </div>
-                    <div class="col-md-10">
-                        <p class="mt-2 font-weight-normal" style="font-size: 16px;">Skill distribution of students in the cohort </p>
-                    </div>
-                    <div class="col-md-2">
-                        <div class="gray">
-                            <i class="fa-solid fa-chevron-right white-iconbox"></i>
+                    <div class="row align-items-center justify-content-arround px-2 w-100">
+                        <div class="col-md-10 col-10">
+                            <p class="mt-2 font-weight-normal" style="font-size: 16px;">
+                                Skill distribution of students in the cohort</p>
                         </div>
+                        {{-- <div class="col-md-2 col-2 d-flex justify-content-end pr-0">
+                                    <div class="gray">
+                                        <i class="fa-solid fa-chevron-right white-iconbox"></i>
+                                    </div>
+                                </div> --}}
                     </div>
                     <div class="col-md-12">
                         <p class="mt-4">Resource Usage Breakdown
                             <span class="date">
-                                <img src="/assets/teacher_dashboard_new/date-picker-icon.png">
-                                <input type="text" name="daterange" value="10/01/2023 - 10/15/2023" />
+                                <img src="/assets/teacher_dashboard_new/date-picker-icon.png" role="button" data-toggle="dropdown">
+                                <input class="dropdown-menu" type="text" name="daterange" value="10/01/2023 - 10/15/2023" />
                             </span>
                         </p>
                     </div>
-                    <div class="col-md-12">
+                    <div class="col-md-12 px-0 px-md-3 d-flex justify-content-center">
                         <div class="myBarChart">
                             <canvas id="barChart"></canvas>
                             <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
                             <script>
-                                const dates = ['Feb 10', 'Feb 11', 'Feb 12', 'Feb 13', 'Feb 14', 'Feb 15', 'Feb 16'];
+                                const dates = ['Feb 10', 'Feb 11', 'Feb 12', 'Feb 13', 'Feb 14', 'Feb 15',
+                                    'Feb 16'
+                                ];
                                 const datapoints = [1, 2, 3, 4, 5, 6, 7];
                                 const datab = {
                                     labels: dates,
@@ -490,23 +515,26 @@
                         </div>
                     </div>
                     <div class="col-md-10">
-                        <p class="mt-2 font-weight-normal" style="font-size: 16px;">Number of the students who access to the resources over time</p>
+                        <p class="mt-2 font-weight-normal" style="font-size: 16px;">Number of the students who
+                            access to the resources over time</p>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="col-lg-2">
+        <div class="col-lg-3">
             <div class="download-box box">
+                <div class="row align-items-center">
+                    <div class="col-8">
+                        <p class="mb-0">Class Report</p>
+                    </div>
+                    {{-- <div class="col-4 d-flex justify-content-end">
+                                <div class="gray">
+                                    <i class="fa-solid fa-chevron-right white-iconbox"></i>
+                                </div>
+                            </div> --}}
+                </div>
                 <div class="row">
-                    <div class="col-md-8">
-                        <p>Class Report</p>
-                    </div>
-                    <div class="col-md-2">
-                        <div class="gray">
-                            <i class="fa-solid fa-chevron-right white-iconbox"></i>
-                        </div>
-                    </div>
                     <div class="col-md-12 mt-2">
                         <div class="download_btn">
                             Download PDF
@@ -525,83 +553,85 @@
                         </p>
                     </div>
                     <div class="col-md-2"></div>
-                    <div class="col-md-4">
+                    <div class="col-md-3 col-3">
                         <img src="/assets/teacher_dashboard_new/path.png">
                     </div>
-                    <div class="col-md-8">
-                        <p style="font-size: 8px; font-weight: 700;">Business Administration
-                        <p>
-                        <p style="font-size: 8px;">Lorem Ipsum Descriptions Business Administration_</p>
+                    <div class="col-md-9 col-9">
+                        <p style="font-size: 10px; font-weight: 700;">Business Administration
+                        </p>
+                        <p style="font-size: 10px;">Lorem Ipsum Descriptions Business Administration_</p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-3 col-3">
                         <img src="/assets/teacher_dashboard_new/path.png">
                     </div>
-                    <div class="col-md-8">
-                        <p style="font-size: 8px; font-weight: 700;">Business Administration
-                        <p>
-                        <p style="font-size: 8px;">Lorem Ipsum Descriptions Business Administration_</p>
+                    <div class="col-md-9 col-9">
+                        <p style="font-size: 10px; font-weight: 700;">Business Administration
+                        </p>
+                        <p style="font-size: 10px;">Lorem Ipsum Descriptions Business Administration_</p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-3 col-3">
                         <img src="/assets/teacher_dashboard_new/path.png">
                     </div>
-                    <div class="col-md-8">
-                        <p style="font-size: 8px; font-weight: 700;">Business Administration
-                        <p>
-                        <p style="font-size: 8px;">Lorem Ipsum Descriptions Business Administration_</p>
+                    <div class="col-md-9 col-9">
+                        <p style="font-size: 10px; font-weight: 700;">Business Administration
+                        </p>
+                        <p style="font-size: 10px;">Lorem Ipsum Descriptions Business Administration_</p>
                     </div>
                 </div>
             </div>
 
 
             <div class="pathway-box box">
-                <div class="row">
-                    <div class="col-md-3">
+                <div class="row align-items-center">
+                    <div class="col-md-3 col-3">
                         <div class="gray">
                             <img src="/assets/teacher_dashboard_new/strength.png">
                         </div>
                     </div>
-                    <div class="col-md-9">
-                        <p>Top Strengths
+                    <div class="col-md-9 col-9">
+                        <p class="mb-0">Top Strengths
                             <span data-tooltip="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." data-tooltip-location="left">
                                 <i class="fa fa-question-circle tooltip-icon"></i>
                             </span>
                         </p>
                     </div>
+                </div>
+                <div class="row">
                     <div class="col-md-12">
                         <div class="gray-box">
-                            <p>Passion</p>
+                            <span class="p-2 d-inline-block">Passion</span>
                         </div>
                     </div>
                     <div class="col-md-12">
                         <div class="gray-box">
-                            <p>Curiosity</p>
+                            <span class="p-2 d-inline-block">Curiosity</span>
                         </div>
                     </div>
                     <div class="col-md-12">
                         <div class="gray-box">
-                            <p>Agility</p>
+                            <span class="p-2 d-inline-block">Agility</span>
                         </div>
                     </div>
                     <div class="col-md-12">
                         <div class="gray-box">
-                            <p>Persistence</p>
+                            <span class="p-2 d-inline-block">Persistence</span>
                         </div>
                     </div>
                     <div class="col-md-12">
                         <div class="gray-box">
-                            <p>Exploring</p>
+                            <span class="p-2 d-inline-block">Exploring</span>
                         </div>
                     </div>
                     <div class="col-md-12">
                         <div class="gray-box">
-                            <p>Originality</p>
+                            <span class="p-2 d-inline-block">Originality</span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="col-lg-10">
+        <div class="col-lg-9">
             <div class="marks-dis box">
                 <div class="col-md-12">
                     <p>Mark Distribution Box Plot
@@ -611,7 +641,7 @@
                     </p>
                 </div>
                 <div class="col-md-12">
-                    <canvas id="candleStickChart" width="400" height="400"></canvas>
+                    <!-- <canvas id="candleStickChart" width="400" height="400"></canvas> -->
                     <script>
                         const startingdate = luxon.DateTime.fromRFC2822('01 Oct 2023 00:00 GMT');
                         const startingdate2 = luxon.DateTime.fromRFC2822('02 Oct 2023 00:00 GMT');
@@ -652,37 +682,39 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-3">
             <div class="pathway-box box">
-                <div class="row">
-                    <div class="col-md-3">
+                <div class="row align-items-center">
+                    <div class="col-md-3 col-3">
                         <div class="gray">
                             <img src="/assets/teacher_dashboard_new/strength.png">
                         </div>
                     </div>
-                    <div class="col-md-9">
-                        <p>Strengths Unlocked
+                    <div class="col-md-9 col-9">
+                        <p class="mb-0">Strengths Unlocked
                             <span data-tooltip="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." data-tooltip-location="left">
                                 <i class="fa fa-question-circle tooltip-icon"></i>
                             </span>
                         </p>
                     </div>
-                    <div class="col-md-6">
+                </div>
+                <div class="row mt-2">
+                    <div class="col-md-6 col-6">
                         <p style="font-weight: normal;">Greatest </p>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-6">
                         <p style="font-weight: 700; float: right;">25</p>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-6">
                         <p style="font-weight: normal;">Average </p>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-6">
                         <p style="font-weight: 700; float: right;">18</p>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-6">
                         <p style="font-weight: normal;">Least </p>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-6">
                         <p style="font-weight: 700; float: right;">07</p>
                     </div>
                 </div>
@@ -699,16 +731,16 @@
                     </div>
                     <div class="col-md-12">
                         <div class="gray-box">
-                            <div class="row">
-                                <div class="col-md-3">
+                            <div class="row align-items-center">
+                                <div class="col-md-4 col-4">
                                     <div class="pending-files">
-                                        <p>Class 12</p>
-                                        <p>Pending files: 3</p>
+                                        <p class="class-no">Class 12</p>
+                                        <p class="files">Pending files: 03</p>
                                     </div>
                                 </div>
-                                <div class="col-md-9">
+                                <div class="col-md-8 col-8">
                                     <div class="progress-circle over50 p100">
-                                        <span>100%</span>
+                                        <span>50%</span>
                                         <div class="left-half-clipper">
                                             <div class="first50-bar"></div>
                                             <div class="value-bar"></div>tssssss
@@ -716,40 +748,69 @@
                                     </div>
                                 </div>
                             </div>
-                            {{-- <div class="row">
-                                            <div class="col-md-3">
-                                                <div class="pending-files">
-                                                    <p>Class 12</p>
-                                                    <p>Pending files: 3</p>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-9">
-                                                <div class="progress-circle over50 p100">
-                                                    <span>100%</span>
-                                                    <div class="left-half-clipper">
-                                                        <div class="first50-bar"></div>
-                                                        <div class="value-bar"></div>tssssss
-                                                    </div>rrrr
-                                                </div>
-                                            </div>
-                                        </div> --}}
-                            {{-- <div class="row">
-                                            <div class="col-md-3">
-                                                <div class="pending-files">
-                                                    <p>Class 12</p>
-                                                    <p>Pending files: 3</p>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-9">
-                                                <div class="progress-circle over50 p100">
-                                                    <span>100%</span>
-                                                    <div class="left-half-clipper">
-                                                        <div class="first50-bar"></div>
-                                                        <div class="value-bar"></div>tssssss
-                                                    </div>rrrr
-                                                </div>
-                                            </div>
-                                        </div> --}}
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="gray-box">
+                            <div class="row align-items-center">
+                                <div class="col-md-4 col-4">
+                                    <div class="pending-files">
+                                        <p class="class-no">Class 11</p>
+                                        <p class="files">Pending files: 08</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-8 col-8">
+                                    <div class="progress-circle over50 p100">
+                                        <span>50%</span>
+                                        <div class="left-half-clipper">
+                                            <div class="first50-bar"></div>
+                                            <div class="value-bar"></div>tssssss
+                                        </div>rrrr
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="gray-box">
+                            <div class="row align-items-center">
+                                <div class="col-md-4 col-4">
+                                    <div class="pending-files">
+                                        <p class="class-no">Class 10</p>
+                                        <p class="files">Pending files: 05</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-8 col-8">
+                                    <div class="progress-circle over50 p100">
+                                        <span>50%</span>
+                                        <div class="left-half-clipper">
+                                            <div class="first50-bar"></div>
+                                            <div class="value-bar"></div>tssssss
+                                        </div>rrrr
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="gray-box">
+                            <div class="row align-items-center">
+                                <div class="col-md-4 col-4">
+                                    <div class="pending-files">
+                                        <p class="class-no">Class 09</p>
+                                        <p class="files">Pending files: 06</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-8 col-8">
+                                    <div class="progress-circle over50 p100">
+                                        <span>50%</span>
+                                        <div class="left-half-clipper">
+                                            <div class="first50-bar"></div>
+                                            <div class="value-bar"></div>tssssss
+                                        </div>rrrr
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -757,8 +818,6 @@
 
         </div>
     </div>
-
-
 </div>
 @endsection
 
