@@ -207,7 +207,7 @@
                         <div id="fidelity_chart_tour" style="margin: 0 15px;">
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <p class="heading-section">Originality Check
+                                    <p class="heading-section oricheck-text">Originality Check
                                         <span style="text-align: start;" data-tooltip="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." data-tooltip-location="top">
                                             <i class="fa fa-question-circle heading-question-icon" aria-hidden="true"></i>
                                         </span>
@@ -311,7 +311,7 @@
                     </div>
                 </div>
             </div>
-            <div id="profile_timeline" class="top-character box">
+            <div id="profile_timeline" class="top-character box profile-page">
                 <div class="row">
                     <div class="col-md-12">
                         <p>Top Character
@@ -324,12 +324,12 @@
                         <div class="owl-carousel new-carousel">
                             <div class="item gray-box">
                                 <div class="row">
-                                    <div class="col-md-4">
+                                    <div class="col-md-5">
                                         <div class="character-box">
                                             <img src="/assets/teacher_dashboard_new/character.png">
                                         </div>
                                     </div>
-                                    <div class="col-md-8">
+                                    <div class="col-md-7">
                                         <div class="character-text">
                                             <h4>Dreamer <span style="float: right;">32</span></h4>
                                             <p>Students in this class are both emotive and creative. They have a strong understanding of their feelings and are able to recognise and effectively manage their emotions. They are also able to generate ideas and solutions for unique problems through new, out of the box perspectives.</p>
@@ -339,12 +339,12 @@
                             </div>
                             <div class="item gray-box">
                                 <div class="row">
-                                    <div class="col-md-4">
+                                    <div class="col-md-5">
                                         <div class="character-box">
                                             <img src="/assets/teacher_dashboard_new/character.png">
                                         </div>
                                     </div>
-                                    <div class="col-md-8">
+                                    <div class="col-md-7">
                                         <div class="character-text">
                                             <h4>Dreamer <span style="float: right;">32</span></h4>
                                             <p>Students in this class are both emotive and creative. They have a strong understanding of their feelings and are able to recognise and effectively manage their emotions. They are also able to generate ideas and solutions for unique problems through new, out of the box perspectives.</p>
@@ -377,7 +377,6 @@
                                     <div class="description">
                                         <p>#hardworking #tester</p>
                                     </div>
-                                    {{-- changes in info --}}
                                     <div class="info">
                                         <div class="profile_details">
                                             <i class="fa-solid fa-location-dot"></i> <span>India</span>
@@ -394,8 +393,8 @@
                                         </div>
                                     </div>
                                     {{-- changes in badges --}}
-                                    <div class="badges">
-                                        <div class="badges-blue">
+                                    <div class="badges row">
+                                        <div class="col-sm-4">
                                             <div class="small-hex">
                                                 <div class="small-hex-background">
                                                     <img src="/assets/gems/strengths_unlocked.png">
@@ -406,7 +405,7 @@
                                             </div>
                                             <div class="small-text">Strengths Unlocked</div>
                                         </div>
-                                        <div class="badges-blue">
+                                        <div class="col-sm-4">
                                             <div class="small-hex">
                                                 <div class="small-hex-background">
                                                     <img src="/assets/gems/task_completed.png">
@@ -417,7 +416,7 @@
                                             </div>
                                             <div class="small-text">Task Completed</div>
                                         </div>
-                                        <div class="badges-blue">
+                                        <div class="col-sm-4">
                                             <div class="small-hex">
                                                 <div class="small-hex-background">
                                                     <img src="assets/gems/total_entries.png">
@@ -592,10 +591,6 @@
                                         <img src=" https://lifevitae.co/assets/img/strength/2.03 Valuing relationships.png ">
                                         <p>Valuing Relationships</p>
                                     </a>
-                                    <a class="hexLink-back   hexa_bg_Interactive " href="javascript:void(0);">
-                                        <p class="strength_descr">
-                                            You value deep and lasting relationships nurtured on mutual trust and respect </p>
-                                    </a>
                                 </div>
                             </div>
                         </li>
@@ -605,10 +600,6 @@
                                     <a class="hexLink   hexa_bg_Interactive " href="javascript:void(0);">
                                         <img src=" https://lifevitae.co/assets/img/strength/2.01 Collaborating.png ">
                                         <p>Collaborating</p>
-                                    </a>
-                                    <a class="hexLink-back   hexa_bg_Interactive " href="javascript:void(0);">
-                                        <p class="strength_descr">
-                                            You are easy to work with, and you, in turn love to collaborate with others from different fields </p>
                                     </a>
                                 </div>
                             </div>
@@ -620,10 +611,6 @@
                                         <img src=" https://lifevitae.co/assets/img/strength/1.06 Thinking Ahead.png ">
                                         <p>Thinking ahead</p>
                                     </a>
-                                    <a class="hexLink-back   hexa_bg_Cognitive " href="javascript:void(0);">
-                                        <p class="strength_descr">
-                                            You are able to see around corners, and predict what happens next. </p>
-                                    </a>
                                 </div>
                             </div>
                         </li>
@@ -633,10 +620,6 @@
                                     <a class="hexLink   hexa_bg_Cognitive " href="javascript:void(0);">
                                         <img src=" https://lifevitae.co/assets/img/strength/1.04 Simplifying the complex.png ">
                                         <p>Simplifying the Complex</p>
-                                    </a>
-                                    <a class="hexLink-back   hexa_bg_Cognitive " href="javascript:void(0);">
-                                        <p class="strength_descr">
-                                            You have a way of making complex ideas simple to understand </p>
                                     </a>
                                 </div>
                             </div>
@@ -648,12 +631,11 @@
                                         <img src=" https://lifevitae.co/assets/img/strength/1.01 Problem Solving.png ">
                                         <p>Problem Solving</p>
                                     </a>
-                                    <a class="hexLink-back   hexa_bg_Cognitive " href="javascript:void(0);">
-                                        <p class="strength_descr">
-                                            You are always looking for different ways to solve complex problems </p>
-                                    </a>
                                 </div>
                             </div>
+                        </li>
+                        <li class="hex-list">
+                            <img class="hex-lv" src="/assets/sahabat_siswa_report/logo_l_hex.png">
                         </li>
                         <li class="hex-list">
                             <div class="hex">
@@ -661,10 +643,6 @@
                                     <a class="hexLink   hexa_bg_Creative " href="javascript:void(0);">
                                         <img src=" https://lifevitae.co/assets/img/strength/4.01 Curiosity.png ">
                                         <p>Curiosity</p>
-                                    </a>
-                                    <a class="hexLink-back   hexa_bg_Creative " href="javascript:void(0);">
-                                        <p class="strength_descr">
-                                            You have a desire to explore new things and get to know people outside of your circle. </p>
                                     </a>
                                 </div>
                             </div>
@@ -676,10 +654,6 @@
                                         <img src=" https://lifevitae.co/assets/img/strength/4.04 Entrepreneurship.png ">
                                         <p>Entrepreneurship</p>
                                     </a>
-                                    <a class="hexLink-back   hexa_bg_Creative " href="javascript:void(0);">
-                                        <p class="strength_descr">
-                                            You enjoy building things from scratch, and creating value from nothing </p>
-                                    </a>
                                 </div>
                             </div>
                         </li>
@@ -689,10 +663,6 @@
                                     <a class="hexLink   hexa_bg_Motive " href="javascript:void(0);">
                                         <img src=" https://lifevitae.co/assets/img/strength/6.04 Confidence.png ">
                                         <p>Confidence</p>
-                                    </a>
-                                    <a class="hexLink-back   hexa_bg_Motive " href="javascript:void(0);">
-                                        <p class="strength_descr">
-                                            You believe in yourself, and will back yourself even when others may not </p>
                                     </a>
                                 </div>
                             </div>
@@ -704,10 +674,6 @@
                                         <img src=" https://lifevitae.co/assets/img/strength/3.04 Calmness.png ">
                                         <p>Calmness</p>
                                     </a>
-                                    <a class="hexLink-back   hexa_bg_Emotive " href="javascript:void(0);">
-                                        <p class="strength_descr">
-                                            When things go crazy, people turn to you for level headed wisdom </p>
-                                    </a>
                                 </div>
                             </div>
                         </li>
@@ -718,13 +684,9 @@
                                         <img src=" https://lifevitae.co/assets/img/strength/5.03 Dealing with Adversity.png ">
                                         <p>Dealing with Adversity</p>
                                     </a>
-                                    <a class="hexLink-back   hexa_bg_Adaptive " href="javascript:void(0);">
-                                        <p class="strength_descr">
-                                            Adverse situations don’t discourage you, they give you energy to act </p>
-                                    </a>
                                 </div>
                             </div>
-                        </li>
+                        </li>      
                     </ul>
                 </div>
             </div>
@@ -847,14 +809,14 @@
                 </div>
                 <div class="pathway-safety d-flex align-items-center">
                     <div class="row align-items-center">
-                        <div class="col-md-2">
+                        <div class="col-sm-2 col-md-3">
                             <div class="hexagon-strength safety">
                                 <div class="text-center">
                                     <img src="/assets/omr/creative_design_icon.png" style="width: 50%;">
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-10">
+                        <div class="col-sm-10 col-md-9">
                             <p class="description-title">Creative Design</p>
                             <p class="description-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>
@@ -862,14 +824,14 @@
                 </div>
                 <div class="pathway-safety d-flex align-items-center">
                     <div class="row align-items-center">
-                        <div class="col-md-2">
+                        <div class="col-sm-2 col-md-3">
                             <div class="hexagon-strength safety">
                                 <div class="text-center">
                                     <img src="/assets/omr/creative_design_icon.png" style="width: 50%;">
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-10">
+                        <div class="col-sm-10 col-md-9">
                             <p class="description-title">Creative Design</p>
                             <p class="description-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>
@@ -877,14 +839,14 @@
                 </div>
                 <div class="pathway-safety d-flex align-items-center">
                     <div class="row align-items-center">
-                        <div class="col-md-2">
+                        <div class="col-sm-2 col-md-3">
                             <div class="hexagon-strength safety">
                                 <div class="text-center">
                                     <img src="/assets/omr/creative_design_icon.png" style="width: 50%;">
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-10">
+                        <div class="col-sm-10 col-md-9">
                             <p class="description-title">Creative Design</p>
                             <p class="description-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>
