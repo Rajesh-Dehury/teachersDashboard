@@ -291,7 +291,6 @@
                     <div class="col-md-12 px-0 px-md-3 d-flex justify-content-center">
                         <div class="myPieChart">
                             <canvas id="myChart"></canvas>
-                            <script src="https://cdnjs.cloudfare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js">
                             </script>
                             <script>
                                 const data = {
@@ -372,7 +371,6 @@
                     <div class="col-md-12 px-0 px-md-3 d-flex justify-content-center">
                         <div class="myBarChart">
                             <canvas id="barChart"></canvas>
-                            <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
                             <script>
                                 const dates = ['Feb 10', 'Feb 11', 'Feb 12', 'Feb 13', 'Feb 14', 'Feb 15',
                                     'Feb 16'
@@ -641,44 +639,75 @@
                     </p>
                 </div>
                 <div class="col-md-12">
-                    <!-- <canvas id="candleStickChart" width="400" height="400"></canvas> -->
-                    <script>
-                        const startingdate = luxon.DateTime.fromRFC2822('01 Oct 2023 00:00 GMT');
-                        const startingdate2 = luxon.DateTime.fromRFC2822('02 Oct 2023 00:00 GMT');
-                        const dataCandle = {
-                            // labels: ["Motive","Creative","Adaptive","Emotive","Interactive","Cognitive"],
-                            datasets: [{
-                                label: "",
-                                data: [{
-                                        x: startingdate.valueOf(),
-                                        o: 1,
-                                        h: 1.50,
-                                        l: 0.75,
-                                        c: 1.25
-                                    },
-                                    {
-                                        x: startingdate2.valueOf(),
-                                        o: 1.2,
-                                        h: 1.50,
-                                        l: 0.75,
-                                        c: 1.25
-                                    },
-                                ],
-                                // backgroundColor: ['#c00000', '#ed7d31','#ffc000','#70ad47','#5b9bd5','#2d5597'],
-                            }]
-                        };
-                        const configCandle = {
-                            type: 'candlestick',
-                            data,
-                            options: {}
-                        };
+                    <div class="candleStickChartContainer">
+                        <canvas id="candleStickChart"></canvas>
+                        <script>
+                            function randomValues(count, min, max) {
+                                const delta = max - min;
+                                return Array.from({
+                                    length: count
+                                }).map(() => Math.random() * delta + min);
+                            }
 
-                        const candleStickChart = new Chart(
-                            document.getElementById('candleStickChart'),
-                            configCandle
-                        );
-                    </script>
+                            const boxplotData = {
+                                // define label tree
+                                labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+                                datasets: [{
+                                    label: 'Dataset 1',
+                                    backgroundColor: 'rgba(255,0,0,0.5)',
+                                    borderColor: 'red',
+                                    borderWidth: 1,
+                                    outlierColor: '#999999',
+                                    padding: 10,
+                                    itemRadius: 0,
+                                    data: [
+                                        randomValues(100, 0, 100),
+                                        randomValues(100, 0, 20),
+                                        randomValues(100, 20, 70),
+                                        randomValues(100, 60, 100),
+                                        randomValues(40, 50, 100),
+                                        randomValues(100, 60, 120),
+                                        randomValues(100, 80, 100)
+                                    ]
+                                }, {
+                                    label: 'Dataset 2',
+                                    backgroundColor: 'rgba(0,0,255,0.5)',
+                                    borderColor: 'blue',
+                                    borderWidth: 1,
+                                    outlierColor: '#999999',
+                                    padding: 10,
+                                    itemRadius: 0,
+                                    data: [
+                                        randomValues(100, 60, 100),
+                                        randomValues(100, 0, 100),
+                                        randomValues(100, 0, 20),
+                                        randomValues(100, 20, 70),
+                                        randomValues(40, 60, 120),
+                                        randomValues(100, 20, 100),
+                                        randomValues(100, 80, 100)
+                                    ]
+                                }]
+                            };
+                            window.onload = () => {
+                                const ctx = document.getElementById("candleStickChart").getContext("2d");
+                                window.myBar = new Chart(ctx, {
+                                    type: 'boxplot',
+                                    data: boxplotData,
+                                    options: {
+                                        responsive: true,
+                                        legend: {
+                                            position: 'top',
+                                        },
+                                        title: {
+                                            display: true,
+                                            text: 'Chart.js Box Plot Chart'
+                                        }
+                                    }
+                                });
 
+                            };
+                        </script>
+                    </div>
                 </div>
             </div>
         </div>

@@ -397,7 +397,7 @@
                                         <div class="col-sm-4">
                                             <div class="small-hex">
                                                 <div class="small-hex-background">
-                                                    <img src="/assets/gems/strengths_unlocked.png">
+                                                    <img src="/assets/teacher_dashboard_new/strengths_unlocked.png">
                                                 </div>
                                             </div>
                                             <div class="small-hex-rect text-center">
@@ -408,7 +408,7 @@
                                         <div class="col-sm-4">
                                             <div class="small-hex">
                                                 <div class="small-hex-background">
-                                                    <img src="/assets/gems/task_completed.png">
+                                                    <img src="/assets/teacher_dashboard_new/task_completed.png">
                                                 </div>
                                             </div>
                                             <div class="small-hex-rect text-center">
@@ -419,7 +419,7 @@
                                         <div class="col-sm-4">
                                             <div class="small-hex">
                                                 <div class="small-hex-background">
-                                                    <img src="assets/gems/total_entries.png">
+                                                    <img src="assets/teacher_dashboard_new/total_entries.png">
                                                 </div>
                                             </div>
                                             <div class="small-hex-rect text-center">
@@ -510,14 +510,14 @@
                             </div>
                             <div class="row">
                                 <div class="col">
-                                    <div class="hex-strength" style="background-image: url('/assets/teachers/d_skills/d_creative_hexa.png');width: 180px; height: 180px;">
-                                        <img src="/assets/teachers/d_skills/creative.png" style="width: 50%;">
+                                    <div class="hex-strength" style="background-image: url('/assets/teacher_dashboard_new/d_skills/d_creative_hexa.png');width: 180px; height: 180px;">
+                                        <img src="/assets/teacher_dashboard_new/d_skills/creative.png" style="width: 50%;">
                                     </div>
                                     <p class="text-center skill" style="color:#ed7d31;">Creative</p>
                                 </div>
                                 <div class="col">
-                                    <div class="hex-strength" style="background-image: url('/assets/teachers/d_skills/d_interactive_hexa.png');width: 180px; height: 180px;">
-                                        <img src="/assets/teachers/d_skills/interactive.png" style="width: 50%;">
+                                    <div class="hex-strength" style="background-image: url('/assets/teacher_dashboard_new/d_skills/d_interactive_hexa.png');width: 180px; height: 180px;">
+                                        <img src="/assets/teacher_dashboard_new/d_skills/interactive.png" style="width: 50%;">
                                     </div>
                                     <p class="text-center skill" style="color: #5b9bd5;">Interactive</p>
                                 </div>
@@ -547,14 +547,14 @@
                             </div>
                             <div class="row">
                                 <div class="col">
-                                    <div class="hex-strength" style="background-image: url('/assets/teachers/d_skills/d_adaptive_hexa.png');width: 180px; height: 180px;">
-                                        <img src="/assets/teachers/d_skills/adaptive.png" style="width: 50%;">
+                                    <div class="hex-strength" style="background-image: url('/assets/teacher_dashboard_new/d_skills/d_adaptive_hexa.png');width: 180px; height: 180px;">
+                                        <img src="/assets/teacher_dashboard_new/d_skills/adaptive.png" style="width: 50%;">
                                     </div>
                                     <p class="text-center skill" style="color: #ffc000;">Adaptive</p>
                                 </div>
                                 <div class="col">
-                                    <div class="hex-strength" style="background-image: url('/assets/teachers/d_skills/d_motive_hexa.png');width: 180px; height: 180px;">
-                                        <img src="/assets/teachers/d_skills/motive.png" style="width: 50%;">
+                                    <div class="hex-strength" style="background-image: url('/assets/teacher_dashboard_new/d_skills/d_motive_hexa.png');width: 180px; height: 180px;">
+                                        <img src="/assets/teacher_dashboard_new/d_skills/motive.png" style="width: 50%;">
                                     </div>
                                     <p class="text-center skill" style="color: #C00000;">Motive</p>
                                 </div>
@@ -635,7 +635,7 @@
                             </div>
                         </li>
                         <li class="hex-list">
-                            <img class="hex-lv" src="/assets/sahabat_siswa_report/logo_l_hex.png">
+                            <img class="hex-lv" src="/assets/teacher_dashboard_new/logo_l_hex.png">
                         </li>
                         <li class="hex-list">
                             <div class="hex">
@@ -707,8 +707,7 @@
                     <div id="userChart">
                         <div id="lifepower_tour" style="margin: 0 15px;">
                             <canvas id="canvasLine" style="display: block; width: 130px; height: 130px;">
-                            </canvas>
-                            <script src="https://cdnjs.cloudfare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+                            </canvas> </script>
                             <script>
                                 const dataLine = {
                                     labels: ["8th Standard", "9th Standard", "10th Standard"],
@@ -812,7 +811,7 @@
                         <div class="col-sm-2 col-md-3">
                             <div class="hexagon-strength safety">
                                 <div class="text-center">
-                                    <img src="/assets/omr/creative_design_icon.png" style="width: 50%;">
+                                    <img src="/assets/teacher_dashboard_new/creative_design_icon.png" style="width: 50%;">
                                 </div>
                             </div>
                         </div>
@@ -827,7 +826,7 @@
                         <div class="col-sm-2 col-md-3">
                             <div class="hexagon-strength safety">
                                 <div class="text-center">
-                                    <img src="/assets/omr/creative_design_icon.png" style="width: 50%;">
+                                    <img src="/assets/teacher_dashboard_new/creative_design_icon.png" style="width: 50%;">
                                 </div>
                             </div>
                         </div>
@@ -842,7 +841,7 @@
                         <div class="col-sm-2 col-md-3">
                             <div class="hexagon-strength safety">
                                 <div class="text-center">
-                                    <img src="/assets/omr/creative_design_icon.png" style="width: 50%;">
+                                    <img src="/assets/teacher_dashboard_new/creative_design_icon.png" style="width: 50%;">
                                 </div>
                             </div>
                         </div>

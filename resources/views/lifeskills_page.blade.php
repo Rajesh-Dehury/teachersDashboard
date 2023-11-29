@@ -71,8 +71,7 @@
                     </div>
                     <div class="col-md-12 px-0 px-md-3 d-flex justify-content-center">
                         <div class="myPieChart2">
-                            <canvas id="myChart"></canvas>
-                            <script src="https://cdnjs.cloudfare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js">
+                            <canvas id="myChart"></canvas> 
                             </script>
                             <script>
                                 const data = {
