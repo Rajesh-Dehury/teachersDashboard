@@ -9,31 +9,38 @@ Route::get('/', function () {
 
 Route::get('/admission_corner', function () {
     return view('admission_corner');
-});
+})->name('admission_corner');
+
 Route::get('/class_page', function () {
     return view('class_page');
-});
+})->name('class_page');
+
 Route::get('/cohort_dashboard', function () {
-    return view('cohort_dashboard');
-});
+    return view('cohort_dashboard'); //chart
+})->name('home');
 
 Route::get('/interest_page', function () {
     return view('interest_page');
-});
+})->name('interest_page');
+
 Route::get('/lifepaths_page', function () {
     return view('lifepaths_page');
-});
+})->name('lifepaths_page');
+
 Route::get('/lifeskills_page', function () {
-    return view('lifeskills_page');
-});
+    return view('lifeskills_page'); //chart
+})->name('lifeskills_page');
+
 Route::get('/report_page', function () {
     return view('report_page');
-});
+})->name('report_page');
+
 Route::get('/student_page', function () {
     return view('student_page');
-});
+})->name('student_page');
+
 Route::get('/student_profile', function () {
-    return view('student_profile');
+    return view('student_profile'); //chart
 });
 
 Route::get('/summary_student_report_one', function () {
@@ -56,5 +63,7 @@ Route::group(['middleware' => ['guest:teacher_user']], function () {
 });
 Route::group(['middleware' => ['auth:teacher_user']], function () {
     Route::get('teacher/dashboard', [TeacherAuthController::class, 'dashboard'])->name('teacher.dashboard');
+    Route::get('teacher/change/password', [TeacherAuthController::class, 'changePasswordView'])->name('teacher.change.password');
+    Route::post('teacher/change/password', [TeacherAuthController::class, 'changePassword'])->name('teacher.change.password');
     Route::get('teacher/logout', [TeacherAuthController::class, 'logout'])->name('teacher.logout');
 });

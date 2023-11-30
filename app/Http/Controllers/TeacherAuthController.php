@@ -118,6 +118,36 @@ class TeacherAuthController extends Controller
         return back();
     }
 
+
+    function changePasswordView()
+    {
+        return view('teacher_change_password');
+    }
+
+    function changePassword(Request $request)
+    {
+        $request->validate([
+            'old_password' => 'required',
+            'new_password' => 'required',
+            'confirm_new_password' => 'required|same:new_password'
+        ]);
+
+        $teacherUser = Auth::guard('teacher_user')->user();
+
+        if (Hash::check($request->old_password, $teacherUser->password)) {
+            TeacherUser::find($teacherUser->id)->update([
+                'password' => Hash::make($request->new_password)
+            ]);
+
+            return redirect()->route('teacher.dashboard');
+        }
+
+        return redirect()
+            ->back()
+            ->withErrors(['old_password' => 'Invalid Password.'])
+            ->withInput();
+    }
+
     public function dashboard()
     {
         return view('teacher_dashboard');
