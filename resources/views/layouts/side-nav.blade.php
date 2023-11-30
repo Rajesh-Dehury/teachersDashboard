@@ -6,7 +6,7 @@
         <div class="scrollbar" id="style-1">
             <ul id="left-main-menu">
                 <li>
-                    <a href="http://127.0.0.1:8000/newTdCohortDashboard">
+                    <a href="{{route('home')}}">
                         <div class="nav_card">
                             <img src="/assets/teacher_dashboard_new/left_menu/home.png" alt="Home" title="Home">
                             <span class="nav-text">Home</span>
@@ -14,7 +14,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="http://127.0.0.1:8000/newTdClassPage">
+                    <a href="{{route('class_page')}}">
                         <div class="nav_card">
                             <img src="/assets/teacher_dashboard_new/left_menu/class.png" alt="Class" title="Class">
                             <span class="nav-text">Class</span>
@@ -22,7 +22,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="http://127.0.0.1:8000/newTdStudentPage">
+                    <a href="{{route('student_page')}}">
                         <div class="nav_card">
                             <img src="/assets/teacher_dashboard_new/left_menu/students.png" alt="Students" title="Students">
                             <span class="nav-text">Students</span>
@@ -30,7 +30,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="http://127.0.0.1:8000/newTdLifeskillsPage">
+                    <a href="{{route('lifeskills_page')}}">
                         <div class="nav_card">
                             <img src="/assets/teacher_dashboard_new/left_menu/skills.png" alt="Skills" title="Skills">
                             <span class="nav-text">Skills</span>
@@ -38,7 +38,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="http://127.0.0.1:8000/newTdLifepathsPage">
+                    <a href="{{route('lifepaths_page')}}">
                         <div class="nav_card">
                             <img src="/assets/teacher_dashboard_new/left_menu/lifepaths.png" alt="Lifepaths" title="Lifepaths">
                             <span class="nav-text">Lifepaths</span>
@@ -46,7 +46,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="http://127.0.0.1:8000/newTdInterestPage">
+                    <a href="{{route('interest_page')}}">
                         <div class="nav_card">
                             <img src="/assets/teacher_dashboard_new/left_menu/interests.png" alt="Interests" title="Interests">
                             <span class="nav-text">Interests</span>
@@ -54,7 +54,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="http://127.0.0.1:8000/newTdAdmissionCorner">
+                    <a href="{{route('admission_corner')}}">
                         <div class="nav_card">
                             <img src="/assets/teacher_dashboard_new/left_menu/admission_corner.png" alt="Admission Corner" title="Admission Corner">
                             <span class="nav-text">Admission Corner</span>
@@ -62,7 +62,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="http://127.0.0.1:8000/newTdReportPage">
+                    <a href="{{route('report_page')}}">
                         <div class="nav_card">
                             <img src="/assets/teacher_dashboard_new/left_menu/report.png" alt="Report" title="Report">
                             <span class="nav-text">Report</span>
